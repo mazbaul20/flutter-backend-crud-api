@@ -1,1 +1,7 @@
 API Documentation Link: https://flutter-2042.postman.co/workspace/Flutter~22cdbcf6-c04d-45b9-9c60-f725520107b3/request/27247278-2685bf30-16db-4588-8335-3d3e8af68720?action=share&creator=27247278&active-environment=27247278-70f40d9c-5d0a-4682-a398-8fb51df93e46
+
+Backend Server: php artisan serve --host=0.0.0.0
+
+Flutter app
+-----------
+Store API: http://10.0.2.2:8000/api/v1/products

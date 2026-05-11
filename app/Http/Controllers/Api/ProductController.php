@@ -26,7 +26,7 @@ class ProductController extends Controller
     {
         $request->validate([
             'Img' => 'required',
-            'ProductCode' => 'required|unique:products',
+            'ProductCode' => 'required',
             'ProductName' => 'required',
             'Qty' => 'required',
             'UnitPrice' => 'required',
@@ -48,7 +48,8 @@ class ProductController extends Controller
         return apiResponse(
             'success',
             'Product Created Successfully',
-            new ProductResource($product)
+            new ProductResource($product),
+            200
         );
     }//end method
 
